@@ -18,7 +18,7 @@ class NIC_SetFlightHeight_Dialog {
         };
 		class Background_1101: RscText {
             idc = 1101;
-			text =  $STR_TITLE;
+			text =  $STR_TITLE_NIC_FLIGHT_HEIGHT;
             x = 0.06 * safezoneW + safezoneX;
             y = 0.12 * safezoneH + safezoneY;
             w = 0.08 * safezoneW;

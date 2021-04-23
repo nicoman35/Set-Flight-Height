@@ -16,7 +16,7 @@
 
 // diag_log formatText ["%1%2%3%4%5", time, "s  (NIC_fnc_DialogSaveFlightHeight) this: ", _this, "   array:", typeName _this == "ARRAY"];
 params [["_this", 0]];
-diag_log formatText ["%1%2%3%4%5", time, "s  (NIC_fnc_DialogSaveFlightHeight) _this: ", _this];
+// diag_log formatText ["%1%2%3%4%5", time, "s  (NIC_fnc_DialogSaveFlightHeight) _this: ", _this];
 
 if (typeName _this == "ARRAY") exitWith {
 	NIC_FlightHeight = [];

@@ -6,8 +6,8 @@
             <German>Flughöhe einstellen</German>
         </Key>
 		<Key ID="STR_NIC_TITLE_NIC_FLIGHT_HEIGHT">
-            <Original>NIC Set flight height</Original>
-            <German>NIC Flughöhe einstellen</German>
+            <Original>NIC Set Flight Height</Original>
+            <German>NIC Flughöhe Einstellen</German>
         </Key>
 		<Key ID="STR_MIN_NIC_FLIGHT_HEIGHT">
             <Original>Minimal Flight Height</Original>

@@ -20,9 +20,9 @@ if (isNull _vehicle) exitWith {};
 private _ok = createDialog "NIC_SetFlightHeight_Dialog";
 if !(isNil{_vehicle getVariable "NIC_FlightHeight"}) then {ctrlSetText [1102, str(_vehicle getVariable "NIC_FlightHeight")]};
 waitUntil {!dialog};
-// if (typeName NIC_FlightHeight == "STRING") exitWith {}; 		// don't do anything, if dialog was closed with the 'esc' key
+if (typeName NIC_FlightHeight == "STRING") exitWith {}; 		// don't do anything, if dialog was closed with the 'esc' key
 // if (typeName NIC_FlightHeight == "ARRAY") then {
-if (NIC_FlightHeight == "esc") exitWith {}; 		// don't do anything, if dialog was closed with the 'esc' key
+// if (NIC_FlightHeight == "esc") exitWith {}; 		// don't do anything, if dialog was closed with the 'esc' key
 // if (NIC_FlightHeight == "current") then {
 if (typeName NIC_FlightHeight == "ARRAY") then {
 	NIC_FlightHeight = round ((getPos _vehicle) select 2);

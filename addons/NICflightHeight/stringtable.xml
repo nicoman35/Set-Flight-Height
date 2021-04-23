@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="NIC_FlightHeight">
+    <Package name="NIC_FlightHeight">
+		<Key ID="STR_TITLE_NIC_FLIGHT_HEIGHT">
+            <Original>Set flight height</Original>
+            <German>Flughöhe einstellen</German>
+        </Key>
+		<Key ID="STR_NIC_TITLE_NIC_FLIGHT_HEIGHT">
+            <Original>NIC Set flight height</Original>
+            <German>NIC Flughöhe einstellen</German>
+        </Key>
+		<Key ID="STR_MIN_NIC_FLIGHT_HEIGHT">
+            <Original>Minimal Flight Height</Original>
+            <German>Minimale Flughöhe</German>
+        </Key>
+		<Key ID="STR_MIN_NIC_FLIGHT_HEIGHT_TIP">
+            <Original>Lowest possible value flight height can be set to</Original>
+            <German>Niedrigster Wert, auf den die Flughöhe eingestellt werden kann</German>
+        </Key>
+		<Key ID="STR_MAX_NIC_FLIGHT_HEIGHT">
+            <Original>Minimal Flight Height</Original>
+            <German>Minimale Flughöhe</German>
+        </Key>
+		<Key ID="STR_MAX_NIC_FLIGHT_HEIGHT_TIP">
+            <Original>Highest possible value flight height can be set to</Original>
+            <German>Höchster Wert, auf den die Flughöhe eingestellt werden kann</German>
+        </Key>
+		<Key ID="STR_CURRENT_NIC_FLIGHT_HEIGHT">
+            <Original>Current</Original>
+            <German>Aktuell</German>
+        </Key>
+		<Key ID="STR_HEIGHT_CHANGE_CONFIRMATION_NIC_FLIGHT_HEIGHT">
+            <Original>Flight height set to  %1 m</Original>
+            <German>Flughöhe eingestellt auf  %1 m</German>
+        </Key>
+		<Key ID="STR_LOITER_SPEED_SET">
+            <Original>Loiter speed set to %1.</Original>
+            <German>Bummelgeschwindigkeit eingestellt auf %1.</German>
+        </Key>
+		<Key ID="STR_LOITER_SPEED_LOWER">
+			<Original>Lower loiter speed</Original>
+			<German>Bummelgeschwindigkeit senken</German>
+		</Key>
+		<Key ID="STR_LOITER_SPEED_LOWER_TIP">
+			<Original>Hotkey for lowering loiter speed</Original>
+			<German>Hotkey zum Senken der Bummelgeschwindigkeit</German>
+		</Key>
+		<Key ID="STR_LOITER_SPEED_RAISE">
+			<Original>Raise loiter speed</Original>
+			<German>Bummelgeschwindigkeit erhöhen</German>
+		</Key>
+		<Key ID="STR_LOITER_SPEED_RAISE_TIP">
+			<Original>Hotkey for rasing loiter speed</Original>
+			<German>Hotkey zum Erhöhen der Bummelgeschwindigkeit</German>
+		</Key>
+	</Package>
+</Project>

@@ -1,11 +1,13 @@
-name 				= "Set Flight Height";
+name 				= "NIC Set Flight Height";
 picture 			= "logo.paa";
+actionName			= "Website";
+action				= "https://github.com/nicoman35/Set-Flight-Height";
 description 		= "Set Flight Height";
 logo 				= "logo.paa";
 logoOver 			= "logo.paa";
-tooltip				= "Set Flight Height v1.0";
+tooltip				= "Set Flight Height v1.1";
 tooltipOwned		= "Set Flight Height Owned";
-overview			= "Set Flight Height v1.0<br />Set flight height of any AI driven air vehicle from 20 to 5.000 m. Option is available for pilots, copilots, and UAV gunners. Useful for single players.<br />NOTE: As of v1.96, due to buggy AI, rotor driven vehicles will not be able to fly paths in heights above 500 m.";
+overview			= "Set Flight Height v1.1<br />Set flight height of any AI driven air vehicle from 20 to 10.000 m. Option is available for pilots, copilots, and UAV gunners. Useful for single players.<br />NOTE: As of v1.96, due to buggy AI, rotor driven vehicles will not be able to fly paths in heights above 500 m.";
 author 				= "NIC";
 overviewPicture		= "logo.paa";
 overviewText 		= "Set Flight Height";

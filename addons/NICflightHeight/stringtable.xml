@@ -18,8 +18,8 @@
             <German>Niedrigster Wert, auf den die Flughöhe eingestellt werden kann</German>
         </Key>
 		<Key ID="STR_MAX_NIC_FLIGHT_HEIGHT">
-            <Original>Minimal Flight Height</Original>
-            <German>Minimale Flughöhe</German>
+            <Original>Maximal Flight Height</Original>
+            <German>Maximale Flughöhe</German>
         </Key>
 		<Key ID="STR_MAX_NIC_FLIGHT_HEIGHT_TIP">
             <Original>Highest possible value flight height can be set to</Original>

@@ -16,7 +16,7 @@
 */
 
 params [["_vehicle", objNull], ["_changeSpeed", 0]];
-diag_log formatText ["%1%2%3%4", "			_vehicle: ", _vehicle, ", _changeSpeed: ", _changeSpeed];
+// diag_log formatText ["%1%2%3%4", "			_vehicle: ", _vehicle, ", _changeSpeed: ", _changeSpeed];
 if (isNull _vehicle || _changeSpeed == 0) exitWith {};									// leave, if no vehicle given or no change string given
 private _group = group _vehicle;														// get AI group of vehicle
 private _index = currentWaypoint _group;												// get index of current group's waypoint
@@ -24,12 +24,12 @@ if ((waypointLoiterRadius [_group, _index]) < 0) exitWith {};							// leave, if
 private _loiterSpeeds = ["LIMITED", "NORMAL", "FULL"];									// posssible group speeds
 private _currentSpeed = waypointSpeed [_group, _index];									// get speed of current waypoint
 private _currentSpeedIndex = _loiterSpeeds find _currentSpeed;							// find index of current speed in group speeds array
-diag_log formatText ["%1%2", "			_currentSpeedIndex: ", _currentSpeedIndex];
+// diag_log formatText ["%1%2", "			_currentSpeedIndex: ", _currentSpeedIndex];
 if (_currentSpeedIndex < 0) then {_currentSpeedIndex = 1};								// if we do not find groups current speed mode, then it is "UNCHANGED", which, in case of loiter waypoints, is "NORMAL"
 if (_currentSpeedIndex == 0 && _changeSpeed == -1) exitWith {};							// leave, if speed is to be lowered, but group is already at lowest speed
 if (_currentSpeedIndex == (count _loiterSpeeds) - 1 && _changeSpeed == 1) exitWith {};	// leave, if speed is to be raised, but group is already at highest speed
 private _newSpeed = _loiterSpeeds select (_currentSpeedIndex + _changeSpeed);			// change index to new speed
-diag_log formatText ["%1%2", "			_newSpeed: ", _newSpeed];
+// diag_log formatText ["%1%2", "			_newSpeed: ", _newSpeed];
 _group setCurrentWaypoint [_group, 0];													// reset current waypoint to basic waypoit; if not, speed changes of loiter waypoint will not be performed!
 [_group, _index] setWaypointSpeed _newSpeed;											// change loiter waypoint's speed
 _group setCurrentWaypoint [_group, _index];												// reset group's current waypoint to loiter waypoint
